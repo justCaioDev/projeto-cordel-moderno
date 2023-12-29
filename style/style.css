@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Font-title';
+    src: url(fonts/Provicali.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Font-body';
+    src: url(fonts/Cinzel-Regular.otf);
+    font-weight: normal;
+}
+
+header {
+    background-color: black;
+}
+
+header > h1 {
+    font-family: 'Font-title', sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 7vw;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+}
+
+header > p > a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-family: 'Font-body', serif;
+    font-size: 2.3vw;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.9em;
+}
+
+main > section {
+    max-width: 50%;
+    padding-top: 100px;
+}
+
+main > div {
+    padding-top: 100px;
+}
+
+main > section > p {
+    margin-left: 70px;
+}
+
+main > div > div > section > p {
+    padding: 7px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.477);
+    width: fit-content;
+}
+
+#background-image1 {
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.393);
+    padding: 35px;
+    background-image: url(images/background001.jpg);
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#background-image2 {
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.393);
+    padding: 35px;
+    background-image: url(images/background002.jpg);
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin-top: 100px;
+}
+
+footer > p {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 1.09vw;
+}
+
+footer > p > a {
+    color: white;
+    font-weight: bolder;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
