@@ -82,7 +82,7 @@ main > div > div > section > p {
     box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.393);
     padding: 35px;
     background-image: url(images/background001.jpg);
-    background-position: center left;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -106,7 +106,7 @@ footer > p {
     text-align: center;
     padding: 10px;
     color: white;
-    font-size: 1.09vw;
+    font-size: 1.09em;
 }
 
 footer > p > a {
